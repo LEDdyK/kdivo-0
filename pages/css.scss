@@ -1,0 +1,77 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.columns {
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 25px;
+    min-width: 1000px;
+    min-height: 525px;
+    #column_1 {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        .custom_panel:nth-of-type(1) {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: none;
+            .spoiler-wrapper {
+                .spoiler-hidden {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    .spoiler-title {
+                        .button {
+                            z-index: 9999
+                        }
+                    }
+                }
+                .spoiler-revealed {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    width: 0px;
+                    height: 0px;
+                    .spoiler-title {
+                        .button {
+                            z-index: 9993
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #column_2 {
+        .panel {
+            z-index: 100;
+        }
+    }
+    #column_3 {
+        .panel {
+            z-index: 101;
+        }
+    }
+}
+
+/*
+content
+position
+left/right
+top/bottom
+z-index
+width
+height
+overflow
+margin
+padding
+border
+background
+font
+*/

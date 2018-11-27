@@ -1,0 +1,209 @@
+#gaia_header {
+	min-width: 1000px !important;
+}
+#gaia_header #header_left {
+	float: none !important;
+	position: absolute !important;
+	left: calc(50% - 500px) !important;
+	min-width: 500px !important;
+	width: 500px !important;
+	max-width: 500px !important;
+}
+#gaia_header #header_right {
+	float: none !important;
+	position: absolute !important;
+	left: 50% !important;
+	box-sizing: border-box !important;
+	min-width: 500px !important;
+	width: 500px !important;
+	max-width: 500px !important;
+	padding-right: 15px !important;
+}
+/*__________Framing__________*/
+#columns {
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 100%;
+    min-width: 1000px;
+    height: 100%;
+    overflow: visible;
+    background-color: green;
+}
+.column {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+#column_1 {
+    float: none;
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 525px;
+    width: 312px;
+    overflow: visible;
+    background-color: blue;
+}
+#column_2 {
+    float: none;
+    position: absolute;
+    left: calc(50% - 136px);
+    top: 525px;
+    width: 636px;
+    background-color: blue;
+}
+#column_3 {
+    float: none;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background-color: purple;
+}
+
+/*__________Header Details__________*/
+/*KDIVO*/
+#column_3 .custom_panel:nth-of-type(1) {
+	position: absolute;
+	left: calc(50% - 445px);
+    top: calc(100% + 375px);
+    z-index: 6;
+	width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+	background-color: rgba(0,0,0,0);
+	background-image: url(https://s25.postimg.cc/dazea8qsv/KKKK.png);
+}/*K*/
+#column_3 .custom_panel:nth-of-type(2) {
+	position: absolute;
+	left: calc(50% - 340px);
+	top: calc(100% + 375px);
+    z-index: 5;
+	width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+	background-color: rgba(0,0,0,0);
+	background-image: url(https://s25.postimg.cc/4q62j2gmn/DDDD.png);
+}/*D*/
+#column_3 .custom_panel:nth-of-type(3) {
+	position: absolute;
+	left: calc(50% - 235px);
+	top: calc(100% + 375px);
+    z-index: 4;
+	width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+	background-color: rgba(0,0,0,0);
+	background-image: url(https://s25.postimg.cc/w21bkeldb/IIII.png);
+}/*I*/
+#column_3 .custom_panel:nth-of-type(4) {
+	position: absolute;
+	left: calc(50% - 130px);
+	top: calc(100% + 375px);
+    z-index: 3;
+	width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+	background-color: rgba(0,0,0,0);
+	background-image: url(https://s25.postimg.cc/q4xg3l48f/VVVV.png);
+}/*V*/
+#column_3 .custom_panel:nth-of-type(5) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+#column_3 .custom_panel:nth-of-type(5) .spoiler-title {
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+#column_3 .custom_panel:nth-of-type(5) .spoiler-hidden .spoiler-title {
+    position: fixed;
+	left: 0px;
+    top: 0px;
+    z-index: 10;
+	width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#column_3 .custom_panel:nth-of-type(5) .spoiler-revealed .spoiler-title {
+    position: absolute;
+	left: calc(50% - 25px);
+    top: calc(100% + 375px);
+    z-index: 2;
+	width: 120px;
+    height: 120px;
+}
+#column_3 .custom_panel:nth-of-type(5) button {
+    position: absolute;
+	left: calc(50% - 60px);
+    top: calc(50% - 60px);
+	width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+	background-color: rgba(0,0,0,0);
+    background-image: url(https://s25.postimg.cc/sxqnnm4kv/OOOO.png);
+}
+#column_3 .custom_panel:nth-of-type(5) span {
+    display: none;
+}/*O*/
+/*Header Background*/
+#id_details h2 {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -500px;
+	width: 1000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+	background-color: red;
+}
+#column_3 .custom_panel:nth-of-type(1) h2 {
+    display: none;
+}
+#column_3 .custom_panel:nth-of-type(2) h2 {
+    display: none;
+}
+#column_3 .custom_panel:nth-of-type(3) h2 {
+    display: none;
+}
+#column_3 .custom_panel:nth-of-type(4) h2 {
+    display: none;
+}
+#column_3 .custom_panel:nth-of-type(5) h2 {
+    display: none;
+}
+
+/*__________Profile Contents__________*/
+
+/*
+content
+float
+position
+left/right
+top/bottom
+z-index
+box-sizing
+width
+height
+overflow
+margin
+padding
+border
+background
+font
+*/
