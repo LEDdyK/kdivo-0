@@ -1,3 +1,28 @@
+html {
+    background-color: rgba(2,47,82,1);
+    background-image: url(http://i.imgur.com/sWW0xCu.png), url(http://i.imgur.com/KzNIhqF.png);
+    animation: sparkle 15s linear infinite;
+    -webkit-animation: sparkle 15s linear infinite;
+    -moz-animation: sparkle 15s linear infinite;
+    -o-animation: sparkle 15s linear infinite
+}
+/*Background animations - credit to Hahaido@myanimelist.net*/
+@keyframes sparkle {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: -150px -300px, 150px -300px; }
+}
+@-webkit-keyframes sparkle {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: -150px -300px, 150px -300px; }
+}
+@-moz-keyframes sparkle {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: -150px -300px, 150px -300px; }
+}
+@-o-keyframes sparkle {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: -150px -300px, 150px -300px; }
+}
 #gaia_header {
 	min-width: 1000px !important;
 }
@@ -28,7 +53,7 @@
     min-width: 1000px;
     height: 100%;
     overflow: visible;
-    background-color: green;
+    background-color: rgba(0,0,0,0);
 }
 .column {
 	padding: 0px !important;
@@ -38,18 +63,18 @@
     float: none;
     position: absolute;
     left: calc(50% - 500px);
-    top: 525px;
+    top: 545px;
     width: 312px;
     overflow: visible;
-    background-color: blue;
+    background-color: rgba(0,0,0,0);
 }
 #column_2 {
     float: none;
     position: absolute;
-    left: calc(50% - 136px);
-    top: 525px;
-    width: 636px;
-    background-color: blue;
+    left: calc(50% - 160px);
+    top: 545px;
+    width: 660px;
+    background-color: rgba(0,0,0,0);
 }
 #column_3 {
     float: none;
@@ -64,7 +89,7 @@
 /*KDIVO*/
 #column_3 .custom_panel:nth-of-type(1) {
 	position: absolute;
-	left: calc(50% - 445px);
+	left: calc(50% - 95px);
     top: calc(100% + 375px);
     z-index: 6;
 	width: 120px;
@@ -73,10 +98,19 @@
     padding: 0;
 	background-color: rgba(0,0,0,0);
 	background-image: url(https://s25.postimg.cc/dazea8qsv/KKKK.png);
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    animation: ani1 6s infinite;
+    -webkit-animation: ani1 6s ease infinite;
+    -moz-animatione: ani1 6s ease infinite;
+    -o-animation: ani1 6s ease infinite;
 }/*K*/
 #column_3 .custom_panel:nth-of-type(2) {
 	position: absolute;
-	left: calc(50% - 340px);
+	left: calc(50% + 10px);
 	top: calc(100% + 375px);
     z-index: 5;
 	width: 120px;
@@ -84,11 +118,20 @@
     margin: 0;
     padding: 0;
 	background-color: rgba(0,0,0,0);
-	background-image: url(https://s25.postimg.cc/4q62j2gmn/DDDD.png);
+    background-image: url(https://s25.postimg.cc/4q62j2gmn/DDDD.png);
+    transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    animation: ani2 6s ease infinite;
+    -webkit-animation: ani2 6s ease infinite;
+    -moz-animation: ani2 6s ease infinite;
+    -o-animation: ani2 6s ease infinite;
 }/*D*/
 #column_3 .custom_panel:nth-of-type(3) {
 	position: absolute;
-	left: calc(50% - 235px);
+	left: calc(50% + 115px);
 	top: calc(100% + 375px);
     z-index: 4;
 	width: 120px;
@@ -97,10 +140,19 @@
     padding: 0;
 	background-color: rgba(0,0,0,0);
 	background-image: url(https://s25.postimg.cc/w21bkeldb/IIII.png);
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    animation: ani1 6s infinite;
+    -webkit-animation: ani1 6s ease infinite;
+    -moz-animation: ani1 6s ease infinite;
+    -o-animation: ani1 6s ease infinite;
 }/*I*/
 #column_3 .custom_panel:nth-of-type(4) {
 	position: absolute;
-	left: calc(50% - 130px);
+	left: calc(50% + 220px);
 	top: calc(100% + 375px);
     z-index: 3;
 	width: 120px;
@@ -109,10 +161,19 @@
     padding: 0;
 	background-color: rgba(0,0,0,0);
 	background-image: url(https://s25.postimg.cc/q4xg3l48f/VVVV.png);
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    animation: ani2 6s ease infinite;
+    -webkit-animation: ani2 6s ease infinite;
+    -moz-animation: ani2 6s ease infinite;
+    -o-animation: ani2 6s ease infinite;
 }/*V*/
 #column_3 .custom_panel:nth-of-type(5) {
     position: absolute;
-	left: calc(50% - 25px);
+	left: calc(50% + 325px);
 	top: calc(100% + 375px);
     z-index: 2;
 	width: 120px;
@@ -121,18 +182,84 @@
     padding: 0;
 	background-color: rgba(0,0,0,0);
 	background-image: url(https://s25.postimg.cc/sxqnnm4kv/OOOO.png);
+    animation: aniO 6s ease infinite;
+    -webkit-animation: aniO 6s ease infinite;
+    -moz-animation: aniO 6s ease infinite;
+    -o-animation: aniO 6s ease infinite;
 }/*O*/
+/*KDIVO Animations*/
+@keyframes ani1 {
+    0%   {top:calc(100% + 365px);}
+    50%  {top:calc(100% + 375px);}
+    100%  {top:calc(100% + 365px);}
+}
+@-webkit-keyframes ani1 {
+    0%   {top:calc(100% + 365px);}
+    50%  {top:calc(100% + 375px);}
+    100%  {top:calc(100% + 365px);}
+}
+@-moz-keyframes ani1 {
+    0%   {top:calc(100% + 365px);}
+    50%  {top:calc(100% + 375px);}
+    100%  {top:calc(100% + 365px);}
+}
+@-o-keyframes ani1 {
+    0%   {top:calc(100% + 365px);}
+    50%  {top:calc(100% + 375px);}
+    100%  {top:calc(100% + 365px);}
+}
+@keyframes ani2 {
+    0%   {top:calc(100% + 375px);}
+    50%  {top:calc(100% + 365px);}
+    100%  {top:calc(100% + 375px);}
+}
+@-webkit-keyframes ani2 {
+    0%   {top:calc(100% + 375px);}
+    50%  {top:calc(100% + 365px);}
+    100%  {top:calc(100% + 375px);}
+}
+@-moz-keyframes ani2 {
+    0%   {top:calc(100% + 375px);}
+    50%  {top:calc(100% + 365px);}
+    100%  {top:calc(100% + 375px);}
+}
+@-o-keyframes ani2 {
+    0%   {top:calc(100% + 375px);}
+    50%  {top:calc(100% + 365px);}
+    100%  {top:calc(100% + 375px);}
+}
+@keyframes aniO {
+    0%   {top:calc(100% + 365px); transform:rotate(-45deg);}
+    50%  {top:calc(100% + 375px); transform:rotate(1095deg);}
+    100%  {top:calc(100% + 365px); transform:rotate(1035deg);}
+}
+@-webkit-keyframes aniO {
+    0%   {top:calc(100% + 365px); transform:rotate(-45deg);-webkit-transform:rotate(-45deg);}
+    50%  {top:calc(100% + 375px); transform:rotate(1095deg);-webkit-transform:rotate(1095deg);}
+    100%  {top:calc(100% + 365px); transform:rotate(1035deg);-webkit-transform:rotate(1035deg);}
+}
+@-moz-keyframes aniO {
+    0%   {top:calc(100% + 365px); transform:rotate(-45deg);-moz-transform:rotate(-45deg);}
+    50%  {top:calc(100% + 375px); transform:rotate(1095deg);-moz-transform:rotate(1095deg);}
+    100%  {top:calc(100% + 365px); transform:rotate(1035deg);-moz-transform:rotate(1035deg);}
+}
+@-o-keyframes aniO {
+    0%   {top:calc(100% + 365px); transform:rotate(-45deg);-o-transform:rotate(-45deg);}
+    50%  {top:calc(100% + 375px); transform:rotate(1095deg);-o-transform:rotate(1095deg);}
+    100%  {top:calc(100% + 365px); transform:rotate(1035deg);-o-transform:rotate(1035deg);}
+}
 /*Header Background*/
 #id_details h2 {
 	content: '';
 	position: absolute;
 	left: 0px;
-	top: -500px;
+	top: -520px;
 	width: 1000px;
     height: 500px;
     margin: 0;
     padding: 0;
-	background-color: red;
+    background-color: rgba(0,0,0,0);
+    background-image: url(http://imagehost.cc/images/2018/11/28/osu-okaerinasai.png);
 }
 #column_3 .custom_panel:nth-of-type(1) h2 {
     display: none;
@@ -161,8 +288,41 @@
 }
 /*Details Section*/
 #column_1 #id_details {
-    
+    z-index: 1;
+    width: 312px;
+    min-height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: rgba(0,0,0,0)
 }
+#column_1 #id_details p {
+    width: 192px;
+    margin-bottom: 2px;
+    color: white;
+}
+#column_1 #id_details a {
+    color: yellow;
+}
+#column_1 #id_details p:nth-of-type(1) {
+    position: absolute;
+    left: 192px;
+    top: 30px;
+    width: 120px;
+} /*Avatar*/
+#column_1 #id_details .forum_userstatus {
+    position: relative;
+    left: 35px;
+    top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+}
+#column_1 #id_details .forum_userstatus .statuslinks span {
+    color: white;
+}/*Dropdown*/
 /*Media Section*/
 #column_1 .media_panel {
     height: 330px;
@@ -267,6 +427,7 @@
 }
 /*__________Profile Contents (Column 2)__________*/
 #column_2 .panel {
+    width: 660px;
     margin-bottom: 20px;
 }
 /*Status Section*/
@@ -279,7 +440,41 @@
 }
 /*Comments Section*/
 #column_2 #id_comments {
-    
+    width: 636px;
+    padding: 5px;
+    border: 7px solid rgba(255,255,255,0.9);
+    border-radius: 10px;
+    background-image: url(https://image.ibb.co/k5m9kR/Comments_Back2.png);
+    background-position-x: -7px;
+    background-position-y: -7px;
+    background-repeat: repeat-y;
+    animation: backgroundrise 45s linear infinite;
+    -webkit-animation: backgroundrise 45s linear infinite;
+    -moz-animation: backgroundrise 45s linear infinite;
+    -o-animation: backgroundrise 45s linear infinite;
+}
+#column_2 #id_comments h2 {
+    height: 111px;
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://s25.postimg.cc/dygoiqh7z/Comments_Header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+@keyframes backgroundrise {
+    0% {background-position-y: -7px;}
+    100% {background-position-y: 876px;}
+}
+@-webkit-keyframes backgroundrise {
+    0% {background-position-y: -7px;}
+    100% {background-position-y: 876px;}
+}
+@-moz-keyframes backgroundrise {
+    0% {background-position-y: -7px;}
+    100% {background-position-y: 876px;}
+}
+@-o-keyframes backgroundrise {
+    0% {background-position-y: -7px;}
+    100% {background-position-y: 876px;}
 }
 /*__________Profile Contents (Side Floaters)__________*/
 #column_3 .custom_panel:nth-of-type(6) {
