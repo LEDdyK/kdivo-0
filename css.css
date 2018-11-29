@@ -74,6 +74,7 @@ html {
     left: calc(50% - 160px);
     top: 545px;
     width: 660px;
+    overflow: visible;
     background-color: rgba(0,0,0,0);
 }
 #column_3 {
@@ -252,7 +253,7 @@ html {
 #id_details h2 {
 	content: '';
 	position: absolute;
-	left: 0px;
+	left: -1px;
 	top: -521px;
 	width: 1000px;
     height: 500px;
@@ -466,7 +467,27 @@ html {
 }
 /*Status Section*/
 #column_2 .custom_panel:nth-of-type(1) {
-    
+    position: relative;
+    left: -28px;
+    box-sizing: border-box;
+    width: 688px;
+    height: 150px;
+    padding: 12px 12px 12px 45px;
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://s25.postimg.cc/nzlis1ub3/Status2.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#column_2 .custom_panel:nth-of-type(1) h2 {
+    display: none;
+}
+#column_2 .custom_panel:nth-of-type(1) div:nth-of-type(1) {
+    height: 126px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#column_2 .custom_panel:nth-of-type(1) div:nth-of-type(1) div {
+    overflow: visible;
 }
 /*About Section*/
 #column_2 #id_about {
