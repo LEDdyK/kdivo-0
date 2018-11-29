@@ -423,7 +423,41 @@ html {
 }
 /*Friends Section*/
 #column_1 #id_friends {
-    
+    box-sizing: border-box;
+    width: 312px;
+    height: 312px;
+    background-color: rgba(0,0,0,0);
+    background-image: url(https://s25.postimg.cc/rvpnwk0j3/Friends_List_Back.png);
+    font-size: 10px;
+}
+#column_1 #id_friends h2 {
+    display: none;
+}
+#column_1 #find_friends_banner {
+    display: none;
+}
+#column_1 #id_friends p:nth-of-type(1) {
+    position: inherit;
+    left: 14px;
+    top: 64px;
+}
+#column_1 #id_friends ul {
+    position: inherit;
+    left: 112px;
+    top: 12px;
+    width: 186px;
+    height: 288px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#column_1 #id_friends li {
+    width: 80px;
+    padding: 10px 0px;
+}
+#column_1 #id_friends a{
+    padding: 0px 2px;
+    background: rgba(255,255,255,0.5);
+    color: rgb(15,78,104);
 }
 /*__________Profile Contents (Column 2)__________*/
 #column_2 .panel {
@@ -436,7 +470,19 @@ html {
 }
 /*About Section*/
 #column_2 #id_about {
-    
+    width: 636px;
+    padding: 12px;
+    padding-bottom: 5px;
+    border-bottom: 7px solid white;
+    border-radius: 10px;
+    background-color: rgb(111,183,221);
+    background-image: url(https://image.ibb.co/dOSRX6/About_Me_A2.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    color: black;
+}
+#column_2 #id_about h2 {
+    display: none;
 }
 /*Comments Section*/
 #column_2 #id_comments {
