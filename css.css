@@ -253,7 +253,7 @@ html {
 	content: '';
 	position: absolute;
 	left: 0px;
-	top: -520px;
+	top: -521px;
 	width: 1000px;
     height: 500px;
     margin: 0;
@@ -289,17 +289,17 @@ html {
 /*Details Section*/
 #column_1 #id_details {
     z-index: 1;
-    width: 312px;
+    width: 310px;
     min-height: 150px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    background: rgba(0,0,0,0)
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
 }
 #column_1 #id_details p {
-    width: 192px;
-    margin-bottom: 2px;
+    width: 190px;
+    margin-bottom: 5px;
     color: white;
 }
 #column_1 #id_details a {
@@ -307,13 +307,13 @@ html {
 }
 #column_1 #id_details p:nth-of-type(1) {
     position: absolute;
-    left: 192px;
-    top: 30px;
+    left: 190px;
+    top: 20px;
     width: 120px;
 } /*Avatar*/
 #column_1 #id_details .forum_userstatus {
     position: relative;
-    left: 35px;
+    left: 34px;
     top: 0px;
     margin-right: 0px;
     margin-left: 0px;
